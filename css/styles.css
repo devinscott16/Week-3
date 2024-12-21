@@ -5,3 +5,9 @@
     top: 0;
     width: 100%;
 }
+/* keeping footer at bottom */
+footer {
+    position: bottom;
+    bottom: 0;
+    height: 2vh;
+}
