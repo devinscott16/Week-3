@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,21 @@
 
 </head>
 <body>
+    <div class="container">
+        <button class="btn btn-primary" id="darkModeToggle">Toggle Dark Mode</button> 
+    </div>
+
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+
+        darkModeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-bs-theme'); 
+            const newTheme = (currentTheme === 'dark') ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-bs-theme', newTheme);
+        });
+    </script>
+
+    <h1>TESTING</h1> 
     
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle/js"></script>
 
