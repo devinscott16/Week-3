@@ -1,10 +1,4 @@
-/* fixing Navbar position */
-.navbar {
-    overflow: hidden;
-    position:fixed;
-    top: 0;
-    width: 100%;
-}
+
 /* keeping footer at bottom */
 footer {
     position: bottom;
