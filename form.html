@@ -38,7 +38,7 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-
+      </div>
       </div>
     
   </nav>
@@ -57,7 +57,90 @@
         });
     </script>
 
-    <h1>TESTING</h1> 
+    <!--Input User Data Grid-->
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputName4">Name</label>
+          <input type="text" class="form-control" id="inputName4" placeholder="First Name Last Name">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="inputCreditcard">Payment</label>
+        <input type="text" class="form-control" id="inputCreditcard" placeholder="Visa 123456789">
+      </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-2">
+        <label for="inputCCV">CCV</label>
+        <input type="text" class="form-control" id="inputCCV2" placeholder="***">
+      </div>
+    </div>
+
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip Code</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </div>
+      <br>
+<!-- comment section -->
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 80px"></textarea>
+        <label for="floatingTextarea2">Special Request</label>
+      </div>
+<!-- end comment section -->
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            I Agree
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Payment</button>
+    </form>
+    <br>
+    <br>
+
+    <!-- Contact Table -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Contact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Owner</th>
+          <td>Cheech</td>
+          <td>Wahoo</td>
+          <td>mrwahoo@casawahoo.com</td>
+        </tr>
+        <tr>
+          <th scope="row">Events</th>
+          <td>Jesicca</td>
+          <td>Rabbit</td>
+          <td>funnybunny@casawahoo.com</td>
+        </tr>
+        <tr>
+          <th scope="row">Cleaning</th>
+          <td>Dirty</td>
+          <td>Casa</td>
+          <td>cleanmycasa@casawahoo.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle/js"></script>
 
